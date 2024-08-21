@@ -26,6 +26,3 @@ The inference was performed using STAN, a state-of-the-art platform for statisti
 - **Data Preparation**: Scripts for data pre-processing and exploratory data analysis.
 - **Model Implementation**: STAN code for Bayesian inference of the Lokta-Volterra parameters.
 - **Results Analysis**: Jupyter notebooks containing the analysis of the inferred parameters and their implications on the predator-prey dynamics.
-
-### Getting Started
-To replicate the analysis or explore the model further, clone this repository and follow the instructions provided in the `setup.md` file to install the required dependencies. The main analysis can be executed by running the scripts in the `notebooks/` directory.
