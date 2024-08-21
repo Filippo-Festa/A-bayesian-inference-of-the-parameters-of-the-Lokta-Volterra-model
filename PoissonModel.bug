@@ -1,0 +1,6 @@
+model
+{
+    X ~ dpois(lambda)
+    lambda ~ dexp(1.00000E-05)
+    Y ~ dpois(lambda)
+}

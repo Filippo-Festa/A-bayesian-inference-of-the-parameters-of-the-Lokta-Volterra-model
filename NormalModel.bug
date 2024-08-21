@@ -1,0 +1,10 @@
+model
+{
+    for (i in 1:length(X)) {
+        X[i] ~ dnorm(mu, tau)
+    }
+    mu ~ dnorm(0.00000E+00, 1.00000E-06)
+    tau ~ dgamma(1, 1.00000E-04)
+    sigma <- 1/sqrt(tau)
+    Y ~ dnorm(mu, tau)
+}
